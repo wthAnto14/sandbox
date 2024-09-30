@@ -13,7 +13,7 @@ void draw(const char* s) {
 	if(strcmp(s, "quadrato") == 0 || strcmp(s, "square") == 0) square(10);
 	if(strcmp(s, "amongus") == 0) amongus(10);
 	if(strcmp(s, "archlogo") == 0 || strcmp(s, "iusearchbtw") == 0) iusearchbtw();
-	if(strcmp(s, "circle") == 0) circle();
+	if(strcmp(s, "cerchio") == 0 || strcmp(s, "circle") == 0) circle();
 }
 
 // draw functions
