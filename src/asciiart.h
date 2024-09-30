@@ -8,7 +8,6 @@ void amongus();
 // the appropriate drawing function
 void draw(const char* s) {
 	while(true){
-		//if(strcmp(s, "quadrato") == 0) quadrato(); // TODO: implement
 		if(strcmp(s, "amongus") == 0){
 			int i=0;
 			scanf("%d",&i);
@@ -16,6 +15,10 @@ void draw(const char* s) {
 		}
 		else if(strcmp(s, "square") == 0) square();
 		else if(strcmp(s, "circle") == 0) square();
+		else {
+			printf("Invalid input: %s\n", s);
+			exit(1);
+		}
 	}
 }
 void square(){
