@@ -2,7 +2,7 @@
 #include <string.h>
 
 // draw functions prototypes
-void amongus();
+void amongus(int i);
 void square(int n);
 void iusearchbtw();
 void circle();
