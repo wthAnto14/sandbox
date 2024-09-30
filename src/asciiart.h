@@ -9,7 +9,11 @@ void amongus();
 void draw(const char* s) {
 	while(true){
 		//if(strcmp(s, "quadrato") == 0) quadrato(); // TODO: implement
-		if(strcmp(s, "amongus") == 0) amongus();
+		if(strcmp(s, "amongus") == 0){
+			int i=0;
+			scanf("%d",&i);
+			amongus(i);
+		}
 		else if(strcmp(s, "square") == 0) square();
 		else if(strcmp(s, "circle") == 0) square();
 	}
@@ -21,6 +25,10 @@ void circle(){
 	printf("()");
 }
 // draw functions
-void amongus() {
-	printf("ඞ\n");
+void amongus(int i;) {
+	while(i>0){
+		printf("ඞ");
+		i--;
+	}
+	printf("\n");
 }
