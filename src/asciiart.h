@@ -28,7 +28,7 @@ void circle(){
 	printf("()");
 }
 // draw functions
-void amongus(int i;) {
+void amongus(int i) {
 	while(i>0){
 		printf("ඞ");
 		i--;
