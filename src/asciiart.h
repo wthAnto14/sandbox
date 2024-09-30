@@ -5,6 +5,7 @@
 void amongus();
 void square(int n);
 void iusearchbtw();
+void circle();
 
 // takes a string as argument and runs
 // the appropriate drawing function
@@ -12,6 +13,7 @@ void draw(const char* s) {
 	if(strcmp(s, "quadrato") == 0 || strcmp(s, "square") == 0) square(10);
 	if(strcmp(s, "amongus") == 0) amongus(10);
 	if(strcmp(s, "archlogo") == 0 || strcmp(s, "iusearchbtw") == 0) iusearchbtw();
+	if(strcmp(s, "circle") == 0) circle();
 }
 
 // draw functions
@@ -53,4 +55,8 @@ void iusearchbtw() {
 	printf(" `+sso+:-`                 `.-/+oso: \n");
 	printf("`++:.                           `-/+/\n");
 	printf(".`                                 `/\n");
+}
+
+void circle(){
+	printf("()");
 }
