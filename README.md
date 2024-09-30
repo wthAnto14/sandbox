@@ -38,8 +38,7 @@ The core of the library is defined in the `asciiart.h` file. Below is a brief de
 
 ### `void draw(const char* s);`
 - **Parameters**:
-  - `height`: Height of the triangle.
-  - `symbol`: The character used to draw the triangle.
+
 
 
 For detailed usage, refer to the `asciiart.h` file and the example in `sample.c`.
