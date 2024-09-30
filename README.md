@@ -18,7 +18,6 @@ This ASCII art library includes the following features:
 - Predefined ASCII art for common shapes (e.g., squares, triangles, circles).
 - Functions to customize and display ASCII art with specified dimensions and characters.
 - Basic drawing utilities for creating your own ASCII art patterns.
-  
 ## Installation and Usage
 
 ### Requirements
