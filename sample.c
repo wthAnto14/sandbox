@@ -6,7 +6,7 @@ int main() {
 	draw("amongus");
 	printf("Printing square with default size:\n");
 	draw("square");
-	printf("Printing "circle" with default size:\n");
+	printf("Printing "circle" with default size:\n square");
 	draw("circle");
 	return 0;
 }
