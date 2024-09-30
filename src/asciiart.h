@@ -58,5 +58,5 @@ void iusearchbtw() {
 }
 
 void circle(){
-	printf("()");
+	printf("()\n");
 }
